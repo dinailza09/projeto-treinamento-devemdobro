@@ -20,5 +20,13 @@ body{
 .informacoes .logo{
  max-width: 350px;
  filter: invert(1);
+ margin-bottom: 80px;
+}
+
+.informacoes .descricao{
+    width: 49%;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
 }
 
