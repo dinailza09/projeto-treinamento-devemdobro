@@ -40,4 +40,7 @@
             min-height: 70vh;
             gap: 50px
         }
+        body{
+            padding: 40px;
+        }
     }
