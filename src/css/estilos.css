@@ -6,16 +6,12 @@ body{
 }
 
 .conteudo{
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-evenly;
 }
 
-.informacoes{
-    background-color: blueviolet;   
-}
 
 .informacoes .logo{
  max-width: 350px;
@@ -31,7 +27,7 @@ body{
 }
 
 .botoes-carrossel{
-    background-color: red;
+   
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -53,7 +49,7 @@ body{
 }
 
 .menu-lateral{
-    background-color: aqua;
+  
     position: fixed;
     top: 0;
     right: 0;
@@ -78,4 +74,19 @@ body{
 
 .menu-lateral .icone:hover{
     transform: scale(1.2);
+}
+
+.carrossel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.carrossel .imagem{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
 }
