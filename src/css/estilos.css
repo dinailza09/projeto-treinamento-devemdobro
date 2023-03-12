@@ -6,9 +6,19 @@ body{
 }
 
 .conteudo{
-    background-color: blue;
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: space-evenly;
+}
+
+.informacoes{
+    background-color: blueviolet;   
+}
+
+.informacoes .logo{
+ max-width: 350px;
+ filter: invert(1);
 }
 
