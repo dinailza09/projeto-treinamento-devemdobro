@@ -30,3 +30,24 @@ body{
     line-height: 30px;
 }
 
+.botoes-carrossel{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes-carrossel .botao{
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #fff;
+
+}
+
+.botoes-carrossel .botao.selecionado{
+   background-color: #1d8346;
+}
